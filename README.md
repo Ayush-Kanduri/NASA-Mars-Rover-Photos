@@ -27,7 +27,7 @@ This project uses the NASA API to fetch all the Mars Rover Images on a particula
 -  Run 'npm start' in GitBash Terminal
 -  Enjoy :)
 
-Reference - https://api.nasa.gov/
+Reference - https://api.nasa.gov/ <br/>
 For any issues related to the project, raise an ISSUE in the respective Repository.
 <br/>
 <br/>
