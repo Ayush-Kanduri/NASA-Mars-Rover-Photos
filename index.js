@@ -5,7 +5,7 @@ const cors = require("cors");
 const expressLayouts = require("express-ejs-layouts");
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 const env = require("./config/environment");
-const path = require("path"); 
+const path = require("path");  
 
 app.use(cors());
 app.use(express.json());
