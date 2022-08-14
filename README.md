@@ -10,9 +10,8 @@
 This project uses the NASA API to fetch all the Mars Rover Images on a particular date.
 
 -  This API Web App uses the Async-Await for the fetch() API calls.
--  It also implements a setTimeout() for the Asynchronicity of the website.
+-  It also implements a Promisified XHR AJAX API Call Asynchronously in the Proxy Server.
 -  It uses a Backend Proxy Server to hide the API Key in the browser & to solve CORS Error.
--  It is built using HTML, CSS, Javascript.
    <br/>
    <br/>
 
