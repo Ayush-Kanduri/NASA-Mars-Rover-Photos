@@ -1,0 +1,15 @@
+<form action="">
+	<div>
+		<label for="date">Date: &ensp;</label>
+		<!-- <input type="date" id="date" name="date" /> -->
+		<input
+			type="text"
+			placeholder="Enter Date"
+			id="date"
+			name="date"
+			onfocus="(this.type='date')"
+		/>
+	</div>
+	<button>Get Images</button>
+</form>
+<div class="flex-center" id="nasa-images"><%- include('_images'); %></div>
