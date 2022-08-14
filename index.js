@@ -7,7 +7,7 @@ const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 const env = require("./config/environment.js");
 const path = require("path");  
 
-app.use(cors());
+app.use(cors()); 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(env.asset_path));
